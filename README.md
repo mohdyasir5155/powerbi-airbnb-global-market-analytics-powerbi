@@ -35,11 +35,11 @@ This project answers three core business questions:
 
 ## 🖥️ Interactive Dashboard Showcase
 
-### Page 1 — Market Growth & Lifecycle Analysis
+### Market Growth & Lifecycle Analysis
 ![Page 1 - Market Growth & Lifecycle Overview](Images/Dashboard/page1-market-growth-lifecycle.png)
 *Traces global listing supply from 2008 to 2021 across 6 distinct market lifecycle stages, highlighting peak supply growth in 2015, regulatory impacts (2016–2017), and the COVID-19 downturn.*
 
-### Page 2 — Market Concentration & Pricing Overview
+### Market Concentration & Pricing Overview
 ![Page 2 - Market Concentration and Pricing](Images/Dashboard/bookmarked-detailed-ratings.png)
 *Visualizes Pareto city concentration (Paris, New York, and Sydney leading), Superhost ratios, and room-type pricing hierarchy.*
 
@@ -62,6 +62,14 @@ This project answers three core business questions:
 
 ---
 
+## 🎯 Actionable Business Recommendations
+
+1. **Focus Host Acquisition on Core Hubs:** Prioritize growth spend in Paris, New York, and Sydney where demand and review activity are already concentrated.
+2. **Position Entire Places as Value Alternatives:** In high hotel-cost markets like Paris, market entire apartment listings as cost-effective alternatives to expensive hotel rooms.
+3. **Prioritize Volume & Pricing over Quality Interventions:** Since guest satisfaction is high everywhere (>89.7), focus operational resources on supply expansion and revenue management rather than rating fixes.
+
+---
+
 ## 🛠️ Technical Implementation & Power BI Skills
 
 - **Data Modeling & Transformation:** Structured dimension and fact relationships across city, date, room type, and listing metrics.
@@ -71,13 +79,7 @@ This project answers three core business questions:
 
 ---
 
-## 🎯 Actionable Business Recommendations
 
-1. **Focus Host Acquisition on Core Hubs:** Prioritize growth spend in Paris, New York, and Sydney where demand and review activity are already concentrated.
-2. **Position Entire Places as Value Alternatives:** In high hotel-cost markets like Paris, market entire apartment listings as cost-effective alternatives to expensive hotel rooms.
-3. **Prioritize Volume & Pricing over Quality Interventions:** Since guest satisfaction is high everywhere (>89.7), focus operational resources on supply expansion and revenue management rather than rating fixes.
-
----
 
 ## 📂 Project Structure
 
