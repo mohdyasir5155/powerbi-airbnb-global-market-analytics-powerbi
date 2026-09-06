@@ -1,4 +1,4 @@
-![Cover Image](Images\Dashboard\poster.png)
+![Cover Image](Images/Dashboard/poster.png)
 
 
 
