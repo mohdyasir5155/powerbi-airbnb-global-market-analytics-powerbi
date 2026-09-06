@@ -1,3 +1,8 @@
+![Airbnb Dashboard](Images\Dashboard\page1-market-growth-lifecycle.png.png)
+
+
+
+
 # 🌍 Global Airbnb Market Performance & City Benchmarking Dashboard
 
 **A Power BI case study analyzing Airbnb's global growth trajectory, market concentration, pricing, and guest satisfaction across 10 major cities.**
@@ -7,7 +12,6 @@
 ![Data Visualization](https://img.shields.io/badge/Data%20Visualization-Business%20Intelligence-informational)
 ![Status](https://img.shields.io/badge/Status-Portfolio%20Project-success)
 
-> 🔗 Live dashboard link: `[Insert Power BI Service link here, if published]`
 
 ---
 
@@ -43,64 +47,14 @@ It answers: *which markets matter most, why, and what should change as a result?
 7. Which cities have the highest and lowest average guest ratings, and how wide is that gap?
 8. Is there a relationship between market size (listing volume) and guest satisfaction?
 
----
-
-## Dataset
-
-> **Note:** The underlying dataset file was not provided at the time of writing. The summary below is inferred from the dashboard's KPI cards and visuals; exact source, row count, and full column list should be confirmed and added.
-
-| Dataset Component | Description |
-|---|---|
-| Listings | Listing-level records across 10 cities, categorized by room type (Entire place, Hotel room, Private room, Shared room) |
-| Hosts | Host-level data, including Superhost vs. non-Superhost status (~182K hosts) |
-| Reviews | Guest review volume and average rating per city (~5.37M reviews) |
-| Property Type | 144 distinct property type categories |
-| Cities | 10 global markets: Paris, New York, Sydney, Rome, Rio de Janeiro, Istanbul, Mexico City, Bangkok, Cape Town, Hong Kong |
-| Date | Yearly time dimension spanning approximately 2008–2021 |
-
-**Known limitation:** row-level granularity, exact date boundaries, and original data source (e.g., Inside Airbnb, Kaggle) are not confirmed from the available materials — `[Insert dataset source here]`.
 
 ---
 
-## Data Preparation & Cleaning
+## Dashboard Preview
 
-Based on the provided project materials, the specific Power Query transformation steps could not be directly confirmed, since no query editor screenshots were included. However, the dashboard's structure implies the following were likely performed:
+![Airbnb Dashboard](Images\Dashboard\page1-market-growth-lifecycle.png.png)
 
-- Categorization of listings into four room types for comparison
-- City-level aggregation to produce market share and ratings summaries
-- Time-based grouping (by year) to support the growth trend and lifecycle-stage segmentation
-- Flagging of Superhost vs. non-Superhost listings for the Pareto breakdown
-
-`[Add confirmed Power Query steps here once source query/M-code is available]`
-
----
-
-## Data Modeling
-
-A data model screenshot was not provided, so the fact/dimension structure cannot be confirmed. Based on the visuals, the model likely involves a central listings/reviews fact table related to city, room type, and date dimensions, but this is inferred rather than confirmed.
-
-`[Insert data model screenshot and confirm relationships here]`
-
----
-
-## DAX & KPI Development
-
-The following KPIs are visible in the dashboard. Underlying DAX formulas were not provided, so only the business purpose of each metric is documented below — no formulas are invented.
-
-| KPI | Business Purpose |
-|---|---|
-| Total Listings (2,79,712) | Overall market size/supply on the platform |
-| Total Hosts (182.024K) | Scale of host participation |
-| Total Cities (10) | Geographic footprint covered by the analysis |
-| Total Property Type (144) | Diversity of accommodation types offered |
-| Total Reviews (53,73,143) | Proxy for guest engagement and platform activity |
-| New Listings over time | Tracks supply growth and lifecycle stage transitions |
-| Avg. Price by Room Type | Benchmarks pricing positioning across accommodation types |
-| Cumulative % of Listings by City | Measures market concentration (Pareto analysis) |
-| Avg. Rating by City | Benchmarks guest satisfaction consistency across markets |
-
-`[Add actual DAX measure definitions in /dax/measures.md once available]`
-
+![Airbnb Dashboard](Images\Dashboard\Ratings.png)
 ---
 
 ## Dashboard Overview
@@ -132,18 +86,7 @@ The following KPIs are visible in the dashboard. Underlying DAX formulas were no
 
 **Business Value:** Identifies where market share and revenue potential are concentrated, how price positioning compares across accommodation types, and whether guest experience is uniform enough to not be a differentiator between markets.
 
----
 
-## Dashboard Preview
-
-`[Insert dashboard screenshot here]`
-
-Recommended screenshot naming convention:
-```
-images/page1-market-growth-lifecycle.png
-images/page2-market-share-pricing.png
-images/page2-ratings.png
-```
 
 ---
 
@@ -196,86 +139,6 @@ This analysis can help stakeholders:
 
 ---
 
-## Project Workflow
-
-```text
-Raw Data
-   ↓
-Data Cleaning
-   ↓
-Power Query Transformation
-   ↓
-Data Modeling
-   ↓
-DAX & KPI Development
-   ↓
-Exploratory Analysis
-   ↓
-Dashboard Design (bookmarks & toggle views)
-   ↓
-Business Insights
-   ↓
-Recommendations
-```
-
----
-
-## Repository Structure
-
-```text
-global-airbnb-performance-dashboard/
-│
-├── README.md
-│
-├── dashboard/
-│   └── global-airbnb-performance.pbix          # [Add PBIX file]
-│
-├── data/
-│   └── airbnb-dataset.csv                      # [Add source dataset]
-│
-├── images/
-│   ├── page1-market-growth-lifecycle.png
-│   ├── page2-market-share-pricing.png
-│   └── page2-ratings.png
-│
-├── documentation/
-│   └── project-documentation.pdf               # [Optional]
-│
-└── dax/
-    └── measures.md                             # [Add DAX measure definitions]
-```
-
----
-
-## How to Use / View the Project
-
-1. Clone or download this repository
-2. Open the `.pbix` file using Power BI Desktop *(once added — not yet included in this repository)*
-3. Review the two dashboard pages: Market Growth & Lifecycle Overview, and Market Concentration, Pricing & Ratings
-4. Use the toggle buttons ("New Listings," "Market by Share," "Ratings") to switch between views
-
----
-
-## Limitations
-
-- The full listing-level dataset and its original source have not been provided or confirmed
-- Exact date range boundaries and row counts are estimated from chart axes, not a verified data dictionary
-- Underlying DAX formulas and the data model have not been documented
-- The analysis describes historical patterns and does not establish causal drivers (e.g., regulation → decline)
-
----
-
-## Future Improvements
-
-- Publish to Power BI Service and add a live report link
-- Document the data model with an ER diagram
-- Add DAX measure documentation (`/dax/measures.md`)
-- Extend the time series into the post-COVID recovery period
-- Add city-level drill-through pages for deeper granularity
-- Incorporate forecasting for future listing growth
-
----
-
 ## Project Takeaways
 
 This project demonstrates the ability to translate a multi-page Power BI dashboard into a structured business narrative — connecting KPI design, market segmentation, and lifecycle analysis to concrete, decision-oriented recommendations, rather than simply presenting charts.
@@ -285,6 +148,6 @@ This project demonstrates the ability to translate a multi-page Power BI dashboa
 ## Author
 
 **Yasir Sheikh**
-GitHub: `[Insert GitHub URL]`
-LinkedIn: `[Insert LinkedIn URL]`
-Portfolio: `[Insert Portfolio URL]`
+- GitHub: `[https://github.com/mohdyasir5155]`
+- LinkedIn: `[https://www.linkedin.com/in/mohd-yasir-sheikh/]`
+
