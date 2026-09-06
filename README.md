@@ -5,8 +5,8 @@
 [![Data Modeling](https://img.shields.io/badge/Data%20Modeling-Star%20Schema-green)]()
 [![Domain](https://img.shields.io/badge/Domain-Travel%20%26%20Hospitality-orange)]()
 
-> 📌 **Recruiter & Hiring Manager Summary:**
-> An end-to-end Power BI analytics project evaluating **279,000+ Airbnb listings**, **182,000+ hosts**, and **5.37 Million guest reviews** across 10 major global cities. It analyzes platform growth lifecycle trends (2008–2021), market concentration (Pareto 80/20), room-type pricing hierarchies, and guest satisfaction benchmarks to inform market expansion and pricing strategy.
+> 📌 **Summary:**
+> An end-to-end Power BI analytics project evaluating **279,000+ Airbnb listings**, **182,000+ hosts**, and **5.37 Million guest reviews** across 10 major global cities. It analyzes platform growth lifecycle trends (2008–2021), market concentration, room-type pricing hierarchies, and guest satisfaction benchmarks to inform market expansion and pricing strategy.
 
 ---
 
@@ -23,7 +23,7 @@
 Market expansion and pricing strategy teams need clear, data-backed answers on **where listing growth is concentrated, how pricing differs across accommodation types, and whether guest satisfaction is consistent** across international markets before committing marketing and host-acquisition budgets.
 
 This project answers three core business questions:
-1. **Growth Dynamics:** How did global listing growth evolve from 2008 to 2021 across key lifecycle stages (Growth, Maturity, Regulation, COVID-19)?
+1. **Growth Dynamics:** How did global listing growth evolve from 2008 to 2021 across key lifecycle stages (Growth, Maturity, Reinvention, COVID-19)?
 2. **Market Concentration:** Which cities drive the majority of listing and review volume (Pareto analysis)?
 3. **Pricing & Quality:** How do room rates compare across categories (Entire place, Hotel room, Private room), and does market size impact guest ratings?
 
@@ -37,7 +37,7 @@ This project answers three core business questions:
 
 ### Page 2 — Market Concentration, Pricing & Guest Experience
 ![Page 2 - Ratings and Market Share](Images/Dashboard/Ratings.png)
-*Visualizes Pareto city concentration (Paris, New York, and Sydney leading), room-type pricing hierarchy, and city-by-city guest rating benchmarks.*
+*Visualizes city concentration (Paris, New York, and Sydney leading), room-type pricing hierarchy, and city-by-city guest rating benchmarks.*
 
 ---
 
