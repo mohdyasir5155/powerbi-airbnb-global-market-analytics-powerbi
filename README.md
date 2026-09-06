@@ -40,11 +40,11 @@ This project answers three core business questions:
 *Traces global listing supply from 2008 to 2021 across 6 distinct market lifecycle stages, highlighting peak supply growth in 2015, regulatory impacts (2016–2017), and the COVID-19 downturn.*
 
 ### Market Concentration & Pricing Overview
-![Page 2 - Market Concentration and Pricing](Images/Dashboard/bookmarked-detailed-ratings.png)
+![Page 2 - Market Concentration and Pricing](Images/Dashboard/Ratings.png)
 *Visualizes Pareto city concentration (Paris, New York, and Sydney leading), Superhost ratios, and room-type pricing hierarchy.*
 
 ### Bookmark Interactive View — Detailed Ratings Matrix
-![Page 2 - Detailed Ratings Matrix View](Images/Dashboard/Ratings.png)
+![Detailed Ratings Matrix View](Images/Dashboard/bookmarked-detailed-ratings.png)
 *Demonstrates interactive Power BI bookmark navigation: clicking the Ratings toggle dynamically switches the report view to a detailed matrix visual analyzing guest satisfaction ratings across all 10 cities.*
 
 ---
