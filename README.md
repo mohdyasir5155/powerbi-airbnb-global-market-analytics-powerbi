@@ -39,9 +39,9 @@ This project answers three core business questions:
 ![Page 1 - Market Growth & Lifecycle Overview](Images/Dashboard/page1-market-growth-lifecycle.png)
 *Traces global listing supply from 2008 to 2021 across 6 distinct market lifecycle stages, highlighting peak supply growth in 2015, regulatory impacts (2016–2017), and the COVID-19 downturn.*
 
-### Page 2 — Market Concentration, Pricing & Guest Experience
-![Page 2 - Ratings and Market Share](Images/Dashboard/Ratings.png)
-*Visualizes city concentration (Paris, New York, and Sydney leading), room-type pricing hierarchy, and city-by-city guest rating benchmarks.*
+### Page 2 — Market Concentration, Pricing & Guest Experience (Ratings Matrix View)
+![Page 2 - Ratings View with Matrix Visual](Images/Dashboard/Ratings.png)
+*Demonstrates bookmark navigation toggling to the Ratings view: displays city concentration (Paris, New York, and Sydney leading), room-type pricing hierarchy, and a detailed guest ratings matrix benchmarking performance across cities.*
 
 ---
 
@@ -62,7 +62,7 @@ This project answers three core business questions:
 
 - **Data Modeling & Transformation:** Structured dimension and fact relationships across city, date, room type, and listing metrics.
 - **DAX & KPI Development:** Built dynamic measures for cumulative market share %, average room rates, Superhost ratios, and listing growth trends.
-- **Bookmark & Navigation UX:** Implemented view-switching toggles ("Market by Share" vs. "Ratings" and "New Listings" views) for clean dashboard navigation.
+- **Bookmark & Navigation UX:** Implemented bookmark-driven view switching ("Market by Share" vs. "Ratings") to dynamically reveal detailed rating breakdowns using a matrix visual without overcrowding the page.
 - **Data Visualization Best Practices:** Applied Pareto charts, layered area timelines, and dual-axis visuals to maximize insights without clutter.
 
 ---
