@@ -1,3 +1,7 @@
+![Cover Image](Images\Dashboard\poster.png)
+
+
+
 # 🌍 Global Airbnb Market Performance & City Benchmarking Dashboard
 
 [![Power BI](https://img.shields.io/badge/Power%20BI-Desktop-F2C811?style=flat&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
