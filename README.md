@@ -1,4 +1,4 @@
-![Airbnb Dashboard](Images\Dashboard\page1-market-growth-lifecycle.png.png)
+![Airbnb Dashboard](Images/Dashboard/page1-market-growth-lifecycle.png)
 
 
 
@@ -52,9 +52,9 @@ It answers: *which markets matter most, why, and what should change as a result?
 
 ## Dashboard Preview
 
-![Airbnb Dashboard](Images\Dashboard\page1-market-growth-lifecycle.png.png)
+![Airbnb Dashboard](Images/Dashboard/page1-market-growth-lifecycle.png)
 
-![Airbnb Dashboard](Images\Dashboard\Ratings.png)
+![Airbnb Dashboard](Images/Dashboard/Ratings.png)
 ---
 
 ## Dashboard Overview
